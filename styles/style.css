@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Century Gothic', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#blocker {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: #00ffeaab;
+  text-shadow:0 0 0.125em hsl(0 0% 100% / 1), 0 0 0.99em #ff00ea;
+}
+
+#instructions {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+#video1{
+  display: none;
+}
+
+#video2{
+  display: none;
+}
+
+#video3{
+  display: none;
+}
+
+.imgportada{
+  height: 100%;
+  width: 100%;
+}
